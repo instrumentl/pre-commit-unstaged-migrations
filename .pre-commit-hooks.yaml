@@ -1,0 +1,5 @@
+- id: unstaged-migrations
+  name: Check for unstaged DB migrations
+  entry: check-for-unstaged-migrations.sh
+  language: script
+  always_run: true
